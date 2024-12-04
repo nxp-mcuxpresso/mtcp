@@ -50,7 +50,7 @@ endif
 ifeq ($(DPDK),1)
 DPDK_MACHINE_LINKER_FLAGS=$${RTE_SDK}/$${RTE_TARGET}/lib/ldflags.txt
 LDFLAGS+=-L@DPDKLIBPATH@/@baselib@
-LIBS += -g -O3 -pthread -lrt -march=native ${MTCP_FLD}/lib/libmtcp.a -lnuma -lmtcp -lpthread -lrt -lm -latomic -ldl -lgmp -Wl,--whole-archive -ldpdk -Wl,--no-whole-archive  ${LDFLAGS}
+LIBS += -g -O3 -pthread -lrt -march=native ${MTCP_FLD}/lib/libmtcp.a -lnuma -lmtcp -lpthread -lrt -lm -latomic -ldl -lgmp -lz -Wl,--whole-archive -ldpdk -Wl,--no-whole-archive  ${LDFLAGS}
 endif
 
 # onvm-specific variables
