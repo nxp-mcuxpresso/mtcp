@@ -2,45 +2,39 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2026-01-26T02:17:48Z",
+    "created": "2026-06-02T02:56:10Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.26"
   },
-  "name": "mtcp-dpdk-LF_6.18.2_1.0.0",
+  "name": "mtcp-dpdk-lf-6.18.20-2.0.0",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/6fad43aa-2756-4113-8fbc-8acbf35190b4",
+  "documentNamespace": "https://nxp.com/spdx/ceeaa39f-30e5-4007-ada8-8f1699b25fb6",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-6fad43aa-2756-4113-8fbc-8acbf35190b4",
+      "SPDXID": "SPDXRef-package-ceeaa39f-30e5-4007-ada8-8f1699b25fb6",
       "name": "mtcp-dpdk",
-      "versionInfo": "LF_6.18.2_1.0.0",
-      "licenseConcluded": "(BSD-3-Clause)",
-      "licenseDeclared": "(BSD-3-Clause)",
-      "downloadLocation": "https://github.com/nxp-mcuxpresso/mtcp -b lf-6.18.2-1.0.0",
+      "versionInfo": "lf-6.18.20-2.0.0",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/mtcp -b lf-6.18.20-2.0.0",
       "originator": "Organization: NXP",
       "supplier": "NOASSERTION",
       "externalRefs": [],
       "filesAnalyzed": false
     },
     {
-      "SPDXID": "SPDXRef-package-ffb54d4c-34e6-4af3-9e1a-be96891712fc",
+      "SPDXID": "SPDXRef-package-ceeaa39f-30e5-4007-ada8-8f1699b25fb6---ffb54d4c-34e6-4af3-9e1a-be96891712fc",
       "name": "mtcp",
       "versionInfo": "v2.1",
       "licenseConcluded": "BSD-3-Clause",
       "licenseDeclared": "(BSD-3-Clause AND X11)",
       "homepage": "https://github.com/eunyoung14/mtcp",
-      "downloadLocation": "NOASSERTION",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/mtcp/commits/lf-6.12.20-2.0.0",
       "originator": "Organization: NXP",
       "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "OTHER",
-          "referenceLocator": "a3a9df86-027b-4ddb-a82b-9f5fc3c4f8b7",
-          "referenceType": "BlackDuck-ComponentOrigin"
-        }
-      ],
+      "externalRefs": [],
       "filesAnalyzed": false
     }
   ],
@@ -48,12 +42,12 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-6fad43aa-2756-4113-8fbc-8acbf35190b4"
+      "relatedSpdxElement": "SPDXRef-package-ceeaa39f-30e5-4007-ada8-8f1699b25fb6"
     },
     {
-      "spdxElementId": "SPDXRef-package-6fad43aa-2756-4113-8fbc-8acbf35190b4",
+      "spdxElementId": "SPDXRef-package-ceeaa39f-30e5-4007-ada8-8f1699b25fb6",
       "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-package-ffb54d4c-34e6-4af3-9e1a-be96891712fc"
+      "relatedSpdxElement": "SPDXRef-package-ceeaa39f-30e5-4007-ada8-8f1699b25fb6---ffb54d4c-34e6-4af3-9e1a-be96891712fc"
     }
   ]
 }
